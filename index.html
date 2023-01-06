@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width"> 
+        <title>Encriptador de Mensajes</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="stylenc.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div>
+                <img class="logo" src="imagenes/Logo.png">
+                <h1>Encriptador de Texto</h1>
+            </div>                            
+        </header>
+        <main>
+            <section>
+                <div class="entrada">
+                        <label for="ingresetexto"></label>
+                        <textarea type="text" name="ingresetexto" id="ingresetexto"  rows=5 cols=10 placeholder="Ingrese el texto aquí"></textarea>  
+                </div>    
+                <div>            
+                    <button class="Encriptar" id="Encriptar" value="Encriptar">Encriptar ✉ </button>
+                </div>
+                <div>
+                    <button class="Desencriptar"id="Desencriptar" value="Desencriptar">Desencriptar ✉ </button>
+                </div>     
+                <p> ⚠ Solamente letras minusculas y sin acentos ⚠ </p>              
+            </section>
+
+            <section  class="textosalida">
+                <div class="buscando">
+                        <h2>No se encontraron Mensajes 🔎</h2>
+                </div>
+                <div class="resultado">
+                        <textarea class="textoencriptado" id="textoencriptado" rows=30 cols=36 placeholder="Ingresa el texto que quieres ocultar o descifrar"></textarea>
+                </div>
+                <div class="copy">
+                    <button id="copy" class="copy">Copiar</button>
+                 </div>
+            </section>                      
+        </main>
+        
+        <footer>
+            <a href="https://www.linkedin.com/in/davidramirezqdir/"></a>            
+            <p class="copyright">&copy Copyright DARL- 2023</p>
+        </footer>
+        
+        <script src="script.js"></script>
+   </body>
+ 
+</html>

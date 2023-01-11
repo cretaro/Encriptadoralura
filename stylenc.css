@@ -1,15 +1,13 @@
 .logo {
     width: 140 px;
     background: #E5E5E5;
-    Position: block;
-    margin-top: 20px;
+    display: inline-block;
     
 }
 
 h1{ 
-    width: 60%;
-    Position: absolute;
-    top: -6px;
+    width: 55%;
+    display: inline-block;
     font-family: fantasy;
     text-align: center;
     font-size: 2em;
@@ -25,26 +23,26 @@ body{
 
 #ingresetexto {
     background: #E5E5E5;
-    Position: inline-block;
+    display: inline-block;
     border:none;
     resize: none;
     outline: none;
     text-align: center;
     font-size: 30px;
-    width: 39%;
-    margin-left: 136px;
+    width: 50%;
+    margin-left: 200px;
     margin-right: 0;
-    height: 415px;
+    height: 400px;
 }
 
 
 button{
-    
-    width: 40%;
-    margin: 0px 137px 10px ;
-    padding: 14px;   
+    display:inline-abblock;
+    width: 45%;
+    margin: 0 20% 7px ;
+    padding: 10px;   
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1em;
     background: grey;
     color: white;
     border: darkgray;
@@ -54,7 +52,7 @@ button{
 }
 
 .textosalida{
-    
+    display: block;
     position: absolute;
     left: 66%;
     top: 40px;
@@ -86,13 +84,13 @@ button{
 }
 p{
     
-    Position:block;
+    display:block;
     text-align: left;
     color: black;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: bold;
-    margin-left: 17%;
-    margin-right: unset;
+    margin-left: 35%;
+    margin-right: auto;
     font-family: Verdana;
 
 }
@@ -101,6 +99,7 @@ p{
     width: 316px;
     margin-right: 0;
     margin-left: -217px;
+    margin-top: 10rem;
     transition: 1s;
     margin-top: 93%;
 }
@@ -132,41 +131,6 @@ p{
     right: 10%;
 }
 
-@media screen and (max-width:480px) {
 
-    h1, #ingresetexto{
-        width:90%;
-        margin: 52px   0   17PX;
-    }
-    
-    button{
-        width: 90%;
-        margin:0 0 11px 37px;
-    }
 
-    #textoencriptado,.textosalida,.resultado, .copy, #copy{
-        display: inline-block;
-        width: 100%;
-        position: static;
-    }
 
-    P{
-        text-align: left;
-        color: black;
-        font-size: 11px;
-    }
-
-    h2{
-        font-size: 15px;
-        text-align: center;
-        width: 100%;
-        margin: 0 0 0 23px;
-        padding: 10px;
-    }
-
-    
-    .entrada {
-    width: 100%;
-    margin-left: 39px;
-}
-}

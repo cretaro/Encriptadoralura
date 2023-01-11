@@ -104,7 +104,7 @@ function desencriptarTexto(texto){
 
 }
 
-function copiarPortapapeles(){
+function copiarPortapapeles(texto){
     let copiado = document.getElementById('#textoEncriptado');
     document.execCommand('copy');
     document.querySelector('#ingresetexto').value='';
